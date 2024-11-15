@@ -1,3 +1,6 @@
+Certainly! Below is a complete and formatted `README.md` file for your token wallet project. You can copy and paste this directly into your `README.md` file in your GitHub repository.
+
+```markdown
 # Token Wallet
 
 ## Overview
@@ -27,26 +30,36 @@ Before you begin, ensure you have met the following requirements:
    ```bash
    git clone <your-repo-url>
    cd token_wallet
+   ```
 
-Start the local ICP network:
-bash
-dfx start --background
+2. Start the local ICP network:
+   ```bash
+   dfx start --background
+   ```
 
-Deploy the wallet:
-bash
-dfx deploy
+3. Deploy the wallet:
+   ```bash
+   dfx deploy
+   ```
 
-Running Tests
+### Running Tests
+
 To run the unit tests, execute:
-bash
+```bash
 dfx test
+```
 
-Usage
+## Usage
+
 Once deployed, you can interact with the wallet through its API or integrate it into your frontend application.
-Example API Calls
-Send Tokens:
-Call the send_tokens function with recipient address and amount.
-Receive Tokens:
-Call the receive_tokens function with amount.
-Get Balance:
-Call the get_balance function to retrieve current balance.
+
+### Example API Calls
+
+- **Send Tokens**:
+  - Call the `send_tokens` function with recipient address and amount.
+  
+- **Receive Tokens**:
+  - Call the `receive_tokens` function with amount.
+
+- **Get Balance**:
+  - Call the `get_balance` function to retrieve current balance.
