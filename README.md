@@ -26,7 +26,7 @@ Before you begin, ensure you have met the following requirements:
 
 1. Clone the repository:
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/Rick-7799/Quad-B-Tech
    cd token_wallet
    ```
 
